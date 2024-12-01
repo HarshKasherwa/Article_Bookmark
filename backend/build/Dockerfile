@@ -12,7 +12,7 @@ WORKDIR /home/pabt
 
 RUN pip install --upgrade pip
 
-COPY ./backend .
+COPY . .
 
 RUN pwd
 
